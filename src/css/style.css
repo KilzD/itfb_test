@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    margin-left: 5%;
+
+}
+
+.cards_place{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.Card{
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card h2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Card p{
+    margin-left: 5px;
+    justify-self: flex-end;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .Card{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Card{
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Card{
+        width: 31%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .Card{
+        width: 24%;
+    }
+}
