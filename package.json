@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://kilzd.github.io/itfb_test",
   "dependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
